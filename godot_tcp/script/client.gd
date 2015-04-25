@@ -13,7 +13,7 @@ var count = 0
 func _process(delta):
 	# Check if client is connected and has data before attempting to read data
 	if client.is_connected() && wrapped_client.get_available_packet_count() >0:
-		debug.print_debug(str(wrapped_client.get_var()))
+		debug.print_debug("Received: "+str(wrapped_client.get_var()))
 	if client.get_status()==1:
 		count= count+delta
 	if count>1:
@@ -36,7 +36,7 @@ func connect_to_server(host,port):
 func send_to_server(data):
 	# Check if client is connected before attempting to send data
 	if client.is_connected():
-		debug.print_debug("Sending "+str(data))
+		debug.print_debug("Sending: "+str(data))
 		# Send data
 		wrapped_client.put_var(data)
 
