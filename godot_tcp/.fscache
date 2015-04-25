@@ -1,0 +1,11 @@
+::res://::1429963130
+icon.png::ImageTexture::1429896941::
+::res://scene::1429969218
+main.scn::PackedScene::1429969218::
+::res://script::1429972318
+client.gd::GDScript::1429972318::
+connect.gd::GDScript::1429972318::
+debug.gd::GDScript::1429972318::
+disconnect.gd::GDScript::1429972318::
+quit.gd::GDScript::1429972318::
+send.gd::GDScript::1429972318::
