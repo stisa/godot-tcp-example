@@ -5,9 +5,10 @@ var client_count = 0
 // TODO: make a switch for at least the main types
 function read_var(data){
 
-	// First 4 bytes are ignored, the length of the header is 4bytes
+	// First 4 bytes are the length of the packet, so I think they can be 
+	// ignored, at least when reading. The length of the header is 4bytes
 	// NOTE: If you need different kinds of inputs, you can use the integer
-	// value to differentiate data types
+	// value (dataType) to differentiate data types
 	var dataType = data.readUIntLE(4,4) 
 	
 	// In strings, the bytes from 4 to 7 (n. 4,5,6,7)
