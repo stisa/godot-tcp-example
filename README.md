@@ -26,8 +26,6 @@ the first 4 bytes. So in a packet with 28bytes, the first 4bytes read '24', whic
 is (28-4=24) the length of the packet!!
 This allows me to send packets from node to godot.
 
-TODO: Add references to the godot wiki about binary serialization, node wiki about buffer and net.
-
 References:
 - https://github.com/okamstudio/godot/wiki/binary_Serialization
 - https://nodejs.org/api/buffer.html
