@@ -12,7 +12,6 @@ func _ready():
 var count = 0
 func _process(delta):
 	# Check if client is connected and has data before attempting to read data
-	print(client.get_status())
 	if client.is_connected() && wrapped_client.get_available_packet_count() >0:
 		debug.print_debug(str(wrapped_client.get_var()))
 	if client.get_status()==1:
