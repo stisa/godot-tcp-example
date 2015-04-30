@@ -10,6 +10,7 @@ Running:
 - Download or clone this repo
 - Open the project inside `godot_tcp` in GodotEngine, or run the `godot_tcp.exe`
 if you use windows
+- Change `host` inside `client.gd`, also make sure `port` matches the port in `server.js`
 - Open a terminal inside the `node` folder and run `server.js` 
 (in nodejs: `node server.js`, in io.js: `iojs server.js`)
 - Click connect in the godot_tcp demo
