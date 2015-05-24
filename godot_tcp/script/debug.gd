@@ -5,9 +5,11 @@ extends RichTextLabel
 # to a RichTextLabel
 
 func _ready():
-	pass
+	# When the node is ready, update the reference in client.gd
+	get_node("/root/Client").update_debug_ref(self)
 
 func print_debug(data):
+
 	# Print the data
 	self.add_text(data)
 	# Separate every line of text

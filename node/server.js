@@ -1,8 +1,15 @@
 var net = require('net')
 
 var client_count = 0
+var host = '192.168.1.3'
+var port = 3456 // Port we want to spin up our server on.
 
-// TODO: make a switch for at least the main types
+/*----
+ TODO: find a way to encode a client name (possibly unique) and keep a reference of it, allowing targeted responses 
+----*/
+
+// TODO: make a switch for at least the main types. 
+//Also FIXME: should check for data type before reading it ( sending pure strings crashes the server)
 function read_var(data){
 
 	// First 4 bytes are the length of the packet, so I think they can be 
@@ -60,11 +67,18 @@ var server = net.createServer(function(socket){
 
 			// Let's see if he can reply
 			if (read=="who am I?"){
-			
+				
+				console.log("Read: "+read)
 				var strResp = "you are a demo"
 				send_var(4,strResp,socket)
-			
-			} else {
+			}
+			else if (read=="bye"){
+				
+				console.log("Read: "+read)
+				var strResp = "GoodBye"
+				send_var(4,strResp,socket)
+			} 
+			else {
 			
 				// Printing some values 
 				console.log("Read: "+read)
@@ -82,7 +96,7 @@ var server = net.createServer(function(socket){
 	})
 })
 
-server.listen(3456, function(){
-
-	console.log('Server created')
+server.listen(port, host, function(){
+	console.log(server.address())
+	//console.log('Server created on %s : %d', host,port )
 })

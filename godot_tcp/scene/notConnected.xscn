@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="5" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://script/notConnectedClient.gd" type="Script"></ext_resource>
+	<ext_resource path="res://script/debug.gd" type="Script"></ext_resource>
+	<ext_resource path="res://script/connect.gd" type="Script"></ext_resource>
+	<ext_resource path="res://script/quit.gd" type="Script"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "names" </string>
+			<string_array  len="41">
+				<string> "notConnectedPanel" </string>
+				<string> "Panel" </string>
+				<string> "_import_path" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/light_mask" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus_neighbour/left" </string>
+				<string> "focus_neighbour/top" </string>
+				<string> "focus_neighbour/right" </string>
+				<string> "focus_neighbour/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "size_flags/stretch_ratio" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Reply" </string>
+				<string> "RichTextLabel" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "bbcode/enabled" </string>
+				<string> "bbcode/bbcode" </string>
+				<string> "Connect" </string>
+				<string> "Button" </string>
+				<string> "disabled" </string>
+				<string> "toggle_mode" </string>
+				<string> "is_pressed" </string>
+				<string> "click_on_press" </string>
+				<string> "text" </string>
+				<string> "icon" </string>
+				<string> "flat" </string>
+				<string> "clip_text" </string>
+				<string> "align" </string>
+				<string> "Quit" </string>
+				<string> "notConnectedTextEdit" </string>
+				<string> "TextEdit" </string>
+				<string> "hint/tooltip" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 5 </int>
+			<string> "nodes" </string>
+			<int_array  len="263"> 				-1, -1, 1, 0, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 0, 10, 0, 11, 0, 12, 0, 13, 6, 14, 1, 15, 7, 16, 7, 17, 2, 18, 8, 19, 9, 0, 0, 0, 21, 20, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 10, 23, 11, 7, 12, 8, 13, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 7, 16, 7, 17, 2, 24, 6, 25, 14, 18, 15, 0, 0, 0, 27, 26, -1, 28, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 16, 23, 17, 7, 18, 8, 19, 9, 0, 10, 0, 11, 0, 12, 0, 13, 6, 14, 1, 15, 7, 16, 7, 17, 2, 28, 6, 29, 6, 30, 6, 31, 6, 32, 20, 33, 21, 34, 6, 35, 6, 36, 3, 18, 22, 0, 0, 0, 27, 37, -1, 28, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 23, 23, 24, 7, 25, 8, 26, 9, 0, 10, 0, 11, 0, 12, 0, 13, 6, 14, 1, 15, 7, 16, 7, 17, 2, 28, 6, 29, 6, 30, 6, 31, 6, 32, 27, 33, 21, 34, 6, 35, 6, 36, 3, 18, 28, 0, 0, 0, 39, 38, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 29, 23, 30, 7, 31, 8, 32, 40, 33, 9, 0, 10, 0, 11, 0, 12, 0, 13, 6, 14, 1, 15, 7, 16, 7, 17, 2, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="34" shared="false">
+				<node_path> "" </node_path>
+				<bool> True </bool>
+				<real> 1 </real>
+				<int> 1 </int>
+				<real> 240 </real>
+				<real> 320 </real>
+				<bool> False </bool>
+				<int> 2 </int>
+				<resource  resource_type="Script" path="res://script/notConnectedClient.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -16, -121.753 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 1 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 1 </int>
+							<string> "sources" </string>
+							<array  len="4" shared="false">
+								<string> "res://script/notConnectedClient.gd" </string>
+								<string> "res://script/connect.gd" </string>
+								<string> "res://script/send.gd" </string>
+								<string> "res://script/debug.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<real> 27 </real>
+				<real> 11 </real>
+				<real> 221 </real>
+				<real> 154 </real>
+				<string> "" </string>
+				<resource  resource_type="Script" path="res://script/debug.gd">  </resource>
+				<real> 31 </real>
+				<real> 254 </real>
+				<real> 95 </real>
+				<real> 302 </real>
+				<string> "Connect" </string>
+				<resource name=""></resource>				<resource  resource_type="Script" path="res://script/connect.gd">  </resource>
+				<real> 150 </real>
+				<real> 255 </real>
+				<real> 198 </real>
+				<real> 303 </real>
+				<string> "Quit" </string>
+				<resource  resource_type="Script" path="res://script/quit.gd">  </resource>
+				<real> 26 </real>
+				<real> 205 </real>
+				<real> 226 </real>
+				<real> 228 </real>
+				<string> "Host:Port" </string>
+			</array>
+			<string> "version" </string>
+			<int> 1 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
